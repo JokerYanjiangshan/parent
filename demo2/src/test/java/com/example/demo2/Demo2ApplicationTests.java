@@ -16,7 +16,7 @@ public class Demo2ApplicationTests {
 
     @Test
     public void contextLoads() {
-            // 创建并填充节点信息
+            // 创建并填充节点信息(我是分支)
             Set<HostAndPort> nodes = new HashSet<>();
             nodes.add(new HostAndPort("192.168.1.100", 7000));
             nodes.add(new HostAndPort("192.168.1.100", 7001));
